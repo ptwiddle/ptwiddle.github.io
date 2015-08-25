@@ -2,9 +2,6 @@
 title: Paul Johnson
 email: paul.johnson@sheffield.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
-  So where does this appear?
-  And does LaTeX work?
-  $$\frac{2}{\sqrt{x^2+y^2}}$$
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: ptwiddle

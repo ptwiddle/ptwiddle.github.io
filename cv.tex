@@ -1,0 +1,235 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage[T1]{fontenc}
+
+% Comment the following line to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[sc,osf]{mathpazo}
+\linespread{1.05}
+\usepackage{microtype}
+% In practice, I use the following font packages instead of mathpazo.
+% beramono provides a nice fixed-width font. xagaramon uses the
+% (commercial) Adobe Garamond font.
+%\usepackage[scaled=0.75]{beramono}
+%\usepackage[osf]{xagaramon}
+
+% Set your name here
+\def\name{Paul D. Johnson}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+ %\ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}[t]{0.5\textwidth}
+School of Mathematics and Statistics \\
+University of Sheffield \\
+Western Bank \\
+Sheffield S10 2TN, UK
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+  Date of Birth: December 20, 1980 \\
+  Citizenship: United States \\
+  Email: paul.johnson@sheffield.ac.uk
+  \end{minipage}
+
+\section*{Research Interests}
+\begin{itemize}
+\item Algebraic geometry and combinatorics, in particular Gromov-Witten theory and Donaldson-Thomas theory of orbifolds and the combinatorics of partitions.
+\end{itemize}
+
+\section*{Education}
+\begin{tabular}{rl}
+   2006--2009 & University of Michigan \\
+  & Ph.D. in Mathematics \\
+  & Advisor: Yongbin Ruan \\
+  \rule{0pt}{3ex}2003--2006 &  University of Wisconsin-Madison\\
+  & M.A. in Mathematics \\
+  \rule{0pt}{3ex}1999--2003 &  University of Chicago \\
+  & B.A. in Mathematics \\
+
+
+\end{tabular}
+
+
+\section*{Professional History}
+\begin{tabular}{rl}
+2014-- & Lecturer, University of Sheffield \\
+\rule{0pt}{3ex} 2013--2014 & Assistant Professor, Colorado State University \\
+\rule{0pt}{3ex} 2011--2013 & NSF Postdoctoral Fellow, Columbia University \\
+\rule{0pt}{3ex}2009 -- 2011 & Postdoctoral Research Fellow, Imperial College London \\
+\rule{0pt}{3ex} Summer 2009 & NSF Postdoctoral Fellow, Princeton University
+\end{tabular}
+
+
+
+\section*{Papers }
+\begin{enumerate}
+\item Double Hurwitz numbers via the infinite wedge. \\
+\emph{Trans. Amer. Math. Soc.} 367 (2015), no. 9, 6415--6440. \href{http://arxiv.org/abs/1008.3266}{arXiv:1008.3266}.
+
+\item Equivariant GW Theory of Stacky Curves \\  \emph{Comm. Math. Phys.} 327 (2014), no. 2, 333--386. \href{http://arxiv.org/abs/0903.1068}{arXiv:0903.1068}
+\item The quantum Lefschetz hyperplane principle can fail for positive orbifold hypersurfaces. \\
+ Joint with T. Coates, A. Gholampour, H. Iritani, Y. Jiang and C. Manolache. \\
+   \emph{Mathematical Research Letters} 19 (2012), no 5. 997--1005.
+\href{http://arxiv.org/abs/1202.2754}{arXiv:1202.2754}.
+\item Hurwitz numbers, ribbon graphs, and tropicalization. \\ Tropical
+  geometry and integrable systems, 55--72,\emph{Contemp. Math.}, 580,
+  Amer. Math. Soc., Providence, RI, 2012.
+\href{http://arxiv.org/abs/1303.1543}{arXiv:1303.1543}.
+\item Chamber Structure for double Hurwitz numbers.
+\\ Joint with R. Cavalieri and H. Markwig. \\ \emph{Adv. Math.} 228 (2011), no. 4,
+  1894--1937.
+\href{http://arxiv.org/abs/1003.1805}{arXiv:1003.1805}.
+ \item Abelian Hurwitz-Hodge integrals. \\ 
+Joint with R. Pandharipande and H.-H. Tseng.  \\  
+\emph{Michigan Math. J.} 60 (2011), no. 1, 171--198.
+\href{http://arxiv.org/abs/0803.0499}{arXiv:0803.0499}.
+\item Tropical Hurwitz Numbers. \\
+ Joint with R. Cavalieri and H. Markwig. \\
+\emph{J. Algebraic Combin.} 32 (2010), no. 2, 241--265. 
+\href{http://arxiv.org/abs/0804.0579}{arXiv:0804.0579}.
+
+
+\end{enumerate}
+
+
+
+\section*{Preprints}
+\begin{enumerate}
+
+\item Lattice points and simultaneous core partitions. \\
+\href{http://arxiv.org/abs/1502.07934}{arXiv:1502.07934}.
+\end{enumerate}
+
+
+
+\section*{Teaching Experience}
+\begin{tabular}{rl}
+University of Sheffield & Ran discussion sections for flipped engineering math \\
+Colorado State University & Combinatorics, Graduate Algebraic Topology sequence \\
+\rule{0pt}{3ex}Imperial College London & Taught representation theory of finite groups for advanced math majors.  \\
+& Ran math discussion sections for 1st year electrical engineering majors. \\
+\rule{0pt}{3ex}University of Michigan & Graduate Student Instructor. Taught Calculus I and II to small classes. \\
+\rule{0pt}{3ex}University of Wisconsin &  Teaching Assistant. Led discussion sections for Calculus I, Calculus III \\
+&  Business Calculus, and Calculus with Precalculus. \\
+%\rule{0pt}{3ex}University of Chicago &  Counselor for YSP, a day math camp for high schoolers. \\
+%& Assistant for the SESAME program, which teaches courses for \\ & certification in math and science for Chicago Public Schools teachers.\\
+\end{tabular}
+
+
+\section*{Honors, Awards, \& Fellowships}
+
+\begin{itemize}
+\item NSF Postdoctoral Fellowship
+\item Wirt and Mary Cornwell Prize (for research at University of Michigan)
+\item Sumner B. Myers Prize (Best Math PhD thesis at University of Michigan)
+\item RTG Fellowship: University of Michigan, spring and fall 2008.
+\item VIGRE Merit Fellowship: University of Wisconsin, summer 2004 and spring 2005.
+\end{itemize}
+
+
+
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+
+\end{document}
+
+\section*{Selected Invited Talks}
+\begin{itemize}
+
+
+\item Tropical Day, July 2013, Warwick University
+\item Topology and Geometry Seminar, June 2013, Imperial College
+
+\item Algebraic Geometry Seminar, 
+
+\item Tropical Geometry and Integrable Systems Conference, July 2011, University of Glasgow
+\item Tropical Geometry Workshop, July 2010, University of G\"ottingen
+\item Sumner Meyers Colloquium, March 2010, University of Michigan
+\item Integrability and Number Theory Meeting, March 2010,  University of Edinburgh
+\item Geometry and Topology Seminar, February 2010, University of Glasgow
+\item Integrability Day, November 2009, Loughborough University
+\item Algebraic Geometry Seminar, November 2009, University of Grenoble
+\item Algebraic Geometry Seminar, October 2009, University of Warwick
+\item Algebraic Combinatorics Seminar, September 2009, Colorado State University
+\item Geometry and Physics Workshop, August 2009, Sichuan University
+\item Geometry, Representation Theory and Moduli Seminar, April 2008, Princeton University.
+\item Geometry Seminar, March 2008, Massachusetts Institute of Technology
+\end{itemize}
