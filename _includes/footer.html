@@ -47,7 +47,21 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+      <h3> Recent Posts </h3>
+      <ul class="posts">  
+	{% for post in site.posts limit:3 %}  
+	   <li>  
+		   <span>{{ post.date | date_to_string }}</span> &raquo;  
+		   <a href="{{ BASE_PATH }}{{ post.url }}">  
+		   {{ post.title }}</a>  
+	   </li>  
+	{% endfor %}  
+</ul>
+
+        <p class="text">
+
+     Site powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://github.com">GitHub</a> </p>
+</p>
       </div>
     </div>
 
