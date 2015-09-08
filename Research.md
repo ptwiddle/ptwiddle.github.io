@@ -7,7 +7,7 @@ permalink: /Research/
 Publications
 ------------
 
-The papers are grouped by general area and then in rough chronological order. All links go to the [arXiv](http://arxiv.org/). For bibliographic information on where they were published, see my [CV](../cv.pdf/), or look them up using mathscinet to get a bibtex version.
+The papers are grouped by general area and then in rough chronological order. All links go to the [arXiv](http://arxiv.org/). For bibliographic information on where they were published, see my [CV](../cv.pdf), or look them up using mathscinet to get a bibtex version.
 
 Orbifold Gromov-Witten theory
 =============================
