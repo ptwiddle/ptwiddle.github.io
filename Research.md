@@ -39,6 +39,7 @@ Hurwitz Numbers (and tropical geometry)
 
 *    [Hurwitz numbers, ribbon graphs, and tropicalization](http://arxiv.org/abs/1303.1543)
 
+* [A graphical interface for the Gromov-Witten theory of curves ](http://arxiv.org/abs/1604.07250)
 
 Core Partitions
 ================
